@@ -1,0 +1,128 @@
+/* ============================================
+   RESPONSIVE & MEDIA QUERIES
+   ============================================ */
+
+/* Accessibility: users preferring less motion */
+@media (prefers-reduced-motion: reduce) {
+    .video-bg {
+        display: none;
+    }
+
+    .mobile-bg {
+        display: block;
+    }
+}
+
+/* Responsive Steps */
+@media (max-width: 576px) {
+    .steps-section {
+        padding: 25px 15px;
+    }
+    
+    .steps-title {
+        font-size: 1.6rem;
+    }
+    
+    .step-item {
+        flex-direction: column !important;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .step-number {
+        margin-bottom: 15px;
+    }
+    
+    .step-description {
+        text-align: center;
+    }
+    
+    [dir="rtl"] .step-item {
+        flex-direction: column !important;
+    }
+}
+
+/* Tablet and Mobile Responsive Design */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .hero-ctas {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .hero-phone {
+        font-size: 1.5rem;
+        padding: 12px 30px;
+        width: 100%;
+        max-width: 280px;
+        justify-content: center;
+    }
+
+    .content-section {
+        padding: 30px 20px;
+        margin: 20px;
+    }
+
+    .services-title {
+        font-size: 2rem;
+    }
+
+    .cta-title {
+        font-size: 2rem;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .cta-phone {
+        font-size: 1.5rem;
+        padding: 12px 30px;
+        width: 100%;
+        max-width: 280px;
+        justify-content: center;
+    }
+
+    .article-title {
+        font-size: 2rem;
+    }
+
+    .article-item h3 {
+        font-size: 1.3rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero__unmute-button {
+        top: 15px;
+        right: 15px;
+    }
+    
+    .unmute-btn {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .hero__content {
+        padding: 2rem 1rem;
+    }
+}
+
+/* ============================================
+   END RESPONSIVE & MEDIA QUERIES
+   ============================================ */
+
+

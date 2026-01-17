@@ -1,0 +1,168 @@
+{
+  "theme": {
+    "name": "Modern White Orange",
+    "description": "Clean modern landing theme: white canvas, graphite typography, orange CTAs (fits the hero car image)"
+  },
+  "colors": {
+    "primary": {
+      "main": "#1f2933",
+      "dark": "#111827",
+      "glow": "rgba(31, 41, 51, 0.25)",
+      "description": "Graphite – premium automotive base"
+    },
+    "accent": {
+      "blue": "#f97316",
+      "blueDark": "#ea580c",
+      "blueAlpha": "rgba(249, 115, 22, 0.25)",
+      "description": "Performance Orange – CTA / highlights"
+    },
+    "neutral": {
+      "black": "#000000",
+      "nearBlack": "#111827",
+      "darkGray": "#1f2933",
+      "mediumGray": "#6b7280",
+      "lightGray": "#e5e7eb",
+      "offWhite": "#f9fafb",
+      "white": "#ffffff"
+    },
+    "accessibility": {
+      "focus": "#f97316",
+      "focusOutline": "#111827",
+      "focusBg": "rgba(249, 115, 22, 0.14)",
+      "description": "High-visibility orange focus with dark outline"
+    },
+    "text": {
+      "primary": "#111827",
+      "secondary": "#374151",
+      "muted": "#6b7280",
+      "white": "#ffffff",
+      "dark": "#000000"
+    },
+    "background": {
+      "primary": "#ffffff",
+      "secondary": "#f9fafb",
+      "pureBlack": "#000000",
+      "navbar": "rgba(255, 255, 255, 0.92)",
+      "sections": "rgba(249, 250, 251, 0.96)",
+      "footer": "#111827"
+    },
+    "border": {
+      "primary": "#e5e7eb",
+      "blue": "#f97316",
+      "blueDark": "#ea580c",
+      "transparent": "transparent",
+      "white": "#ffffff"
+    },
+    "shadow": {
+      "light": "rgba(0, 0, 0, 0.06)",
+      "medium": "rgba(0, 0, 0, 0.10)",
+      "dark": "rgba(0, 0, 0, 0.14)",
+      "darker": "rgba(0, 0, 0, 0.18)",
+      "darkest": "rgba(0, 0, 0, 0.22)",
+      "navbar": "rgba(17, 24, 39, 0.10)",
+      "focus": "rgba(0, 0, 0, 0.18)"
+    },
+    "overlay": {
+      "dark": "rgba(17, 24, 39, 0.35)",
+      "darker": "rgba(17, 24, 39, 0.45)",
+      "darkest": "rgba(17, 24, 39, 0.88)",
+      "whiteLight": "rgba(255, 255, 255, 0.35)",
+      "whiteSpinner": "rgba(255, 255, 255, 0.35)"
+    }
+  },
+  "gradients": {
+    "primary": "linear-gradient(180deg, #1f2933 0%, #111827 100%)",
+    "primaryReverse": "linear-gradient(0deg, #1f2933 0%, #111827 100%)",
+    "blue": "linear-gradient(180deg, #fb923c 0%, #f97316 60%, #ea580c 100%)",
+    "bgMain": "linear-gradient(180deg, #ffffff 0%, #f9fafb 100%)",
+    "overlayDark": "linear-gradient(rgba(17,24,39,.45), rgba(17,24,39,.45))",
+    "gallerySubtle": "linear-gradient(transparent 70%, rgba(0, 0, 0, 0.08))",
+    "whiteOverlay": "rgba(255, 255, 255, 0.35)"
+  },
+  "components": {
+    "hamburger": {
+      "default": "#111827",
+      "hover": "#f97316"
+    },
+    "spinner": {
+      "border": "rgba(249, 115, 22, 0.25)",
+      "top": "#f97316",
+      "whiteBorder": "rgba(255, 255, 255, 0.35)",
+      "whiteTop": "#ffffff"
+    },
+    "buttons": {
+      "primary": {
+        "bg": "#f97316",
+        "hover": "#ea580c",
+        "text": "#ffffff"
+      },
+      "secondary": {
+        "bg": "#ffffff",
+        "hover": "#f9fafb",
+        "text": "#111827",
+        "border": "#e5e7eb"
+      }
+    }
+  },
+  "dimensions": {
+    "focusWidth": "3px",
+    "focusOffset": "2px",
+    "focusOffsetLarge": "3px"
+  },
+  "highContrast": {
+    "bg": "#000000",
+    "text": "#ffffff",
+    "border": "#ffffff"
+  },
+  "alternativeThemes": [
+    {
+      "name": "light",
+      "enabled": false,
+      "overrides": {
+        "background.primary": "#ffffff",
+        "background.secondary": "#f9fafb",
+        "text.primary": "#111827",
+        "text.secondary": "#374151",
+        "colors.primary.main": "#1f2933"
+      }
+    },
+    {
+      "name": "orangeBold",
+      "enabled": false,
+      "overrides": {
+        "colors.primary.main": "#111827",
+        "colors.primary.dark": "#000000",
+        "accent.blue": "#ff6a00",
+        "background.primary": "#ffffff",
+        "text.primary": "#111827"
+      }
+    },
+    {
+      "name": "dark",
+      "enabled": false,
+      "overrides": {
+        "background.primary": "#0b1220",
+        "background.secondary": "#111827",
+        "background.navbar": "rgba(17, 24, 39, 0.75)",
+        "text.primary": "#f9fafb",
+        "text.secondary": "#e5e7eb",
+        "border.primary": "rgba(255,255,255,0.10)",
+        "shadow.navbar": "rgba(0,0,0,0.35)"
+      }
+    }
+  ],
+  "utilityClasses": {
+    "enabled": true,
+    "include": [
+      "text-primary",
+      "text-secondary",
+      "text-muted",
+      "text-white",
+      "bg-primary",
+      "bg-secondary",
+      "bg-dark",
+      "border-primary",
+      "border-blue"
+    ]
+  }
+}

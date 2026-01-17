@@ -1,0 +1,155 @@
+﻿/* ============================================
+   COLOR PALETTE & VARIABLES
+   Theme: Modern White Orange
+   Clean modern landing theme: white canvas, graphite typography, orange CTAs (fits the hero car image)
+   Auto-generated from design/colors.json
+   ============================================ */
+
+:root {
+    /* Primary Brand Colors */
+    --color-primary: #1f2933;
+    --color-primary-dark: #111827;
+    --color-primary-glow: rgba(31, 41, 51, 0.25);
+
+    /* Secondary/Accent Colors */
+    --color-accent-blue: #f97316;
+    --color-accent-blue-dark: #ea580c;
+    --color-accent-blue-alpha: rgba(249, 115, 22, 0.25);
+
+    /* Neutral Colors */
+    --color-black: #000000;
+    --color-near-black: #111827;
+    --color-dark-gray: #1f2933;
+    --color-medium-gray: #6b7280;
+    --color-light-gray: #e5e7eb;
+    --color-off-white: #f9fafb;
+    --color-white: #ffffff;
+
+    /* Accessibility Colors */
+    --color-focus: #f97316;
+    --color-focus-outline: #111827;
+    --color-focus-bg: rgba(249, 115, 22, 0.14);
+
+    /* Text Colors */
+    --text-primary: #111827;
+    --text-secondary: #374151;
+    --text-muted: #6b7280;
+    --text-white: #ffffff;
+    --text-dark: #000000;
+
+    /* Background Colors */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f9fafb;
+    --bg-pure-black: #000000;
+    --bg-navbar: rgba(255, 255, 255, 0.92);
+    --bg-sections: rgba(249, 250, 251, 0.96);
+    --bg-footer: #111827;
+
+    /* Border Colors */
+    --border-primary: #e5e7eb;
+    --border-blue: #f97316;
+    --border-blue-dark: #ea580c;
+    --border-transparent: transparent;
+    --border-white: #ffffff;
+
+    /* Shadow Colors */
+    --shadow-light: rgba(0, 0, 0, 0.06);
+    --shadow-medium: rgba(0, 0, 0, 0.10);
+    --shadow-dark: rgba(0, 0, 0, 0.14);
+    --shadow-darker: rgba(0, 0, 0, 0.18);
+    --shadow-darkest: rgba(0, 0, 0, 0.22);
+    --shadow-navbar: rgba(17, 24, 39, 0.10);
+    --shadow-focus: rgba(0, 0, 0, 0.18);
+
+    /* Overlay Colors */
+    --overlay-dark: rgba(17, 24, 39, 0.35);
+    --overlay-darker: rgba(17, 24, 39, 0.45);
+    --overlay-darkest: rgba(17, 24, 39, 0.88);
+    --overlay-white-light: rgba(255, 255, 255, 0.35);
+    --overlay-white-spinner: rgba(255, 255, 255, 0.35);
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(180deg, #1f2933 0%, #111827 100%);
+    --gradient-primary-reverse: linear-gradient(0deg, #1f2933 0%, #111827 100%);
+    --gradient-blue: linear-gradient(180deg, #fb923c 0%, #f97316 60%, #ea580c 100%);
+    --gradient-bg-main: linear-gradient(180deg, #ffffff 0%, #f9fafb 100%);
+    --gradient-overlay-dark: linear-gradient(rgba(17,24,39,.45), rgba(17,24,39,.45));
+    --gradient-gallery-subtle: linear-gradient(transparent 70%, rgba(0, 0, 0, 0.08));
+    --gradient-white-overlay: rgba(255, 255, 255, 0.35);
+
+    /* Accessibility - Focus Outline */
+    --focus-width: 3px;
+    --focus-offset: 2px;
+    --focus-offset-large: 3px;
+
+    /* High Contrast Mode Overrides */
+    --hc-bg: #000000;
+    --hc-text: #ffffff;
+    --hc-border: #ffffff;
+
+    /* Component-Specific Colors */
+    --hamburger-default: #111827;
+    --hamburger-hover: #f97316;
+    --spinner-border: rgba(249, 115, 22, 0.25);
+    --spinner-top: #f97316;
+    --spinner-white-border: rgba(255, 255, 255, 0.35);
+    --spinner-white-top: #ffffff;
+
+}
+
+/* ============================================
+   ALTERNATIVE THEMES
+   ============================================ */
+
+/*
+[data-theme="light"] {
+    --background-primary: #ffffff;
+    --background-secondary: #f9fafb;
+    --text-primary: #111827;
+    --text-secondary: #374151;
+    --colors-primary-main: #1f2933;
+}
+*/
+
+/*
+[data-theme="orangeBold"] {
+    --colors-primary-main: #111827;
+    --colors-primary-dark: #000000;
+    --accent-blue: #ff6a00;
+    --background-primary: #ffffff;
+    --text-primary: #111827;
+}
+*/
+
+/*
+[data-theme="dark"] {
+    --background-primary: #0b1220;
+    --background-secondary: #111827;
+    --background-navbar: rgba(17, 24, 39, 0.75);
+    --text-primary: #f9fafb;
+    --text-secondary: #e5e7eb;
+    --border-primary: rgba(255,255,255,0.10);
+    --shadow-navbar: rgba(0,0,0,0.35);
+}
+*/
+
+/* ============================================
+   UTILITY CLASSES
+   Use these classes to apply colors directly
+   ============================================ */
+
+.text-primary { color: var(--text-primary); }
+.text-secondary { color: var(--text-secondary); }
+.text-muted { color: var(--text-muted); }
+.text-white { color: var(--text-white); }
+
+.bg-primary { background: var(--bg-primary); }
+.bg-secondary { background: var(--bg-secondary); }
+.bg-dark { background: var(--bg-pure-black); }
+
+.border-primary { border-color: var(--border-primary); }
+.border-blue { border-color: var(--border-blue); }
+
+/* ============================================
+   END COLOR PALETTE
+   ============================================ */
