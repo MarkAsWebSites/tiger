@@ -361,7 +361,7 @@
                 "onClick": "trackPhoneClick('cta_phone_secondary');",
                 "icon": "fas fa-mobile-alt",
                 "text": "{{site.secondaryPhone}}",
-                "isEnabled": false
+                "isEnabled": true
               }
             ]
           }
