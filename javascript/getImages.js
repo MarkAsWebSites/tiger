@@ -146,8 +146,8 @@ function addImageStructuredData() {
         const structuredData = {
             "@context": "https://schema.org",
             "@type": "ImageGallery",
-            "name": "גלריית מצבר לדרך",
-            "description": "גלריית תמונות של רכבים ויאכטות - שירותי חילוץ מקצועיים",
+            "name": "גלריה",
+            "description": "גלריית תמונות של רכבים - שירותי חילוץ מקצועיים",
             "image": imageData
         };
 

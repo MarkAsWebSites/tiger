@@ -13,6 +13,29 @@
     }
 }
 
+/* Small Phone Screens */
+@media (max-width: 480px) {
+    .hero-phone {
+        font-size: 1.1rem;
+        padding: 10px 20px;
+        gap: 8px;
+    }
+
+    .hero-phone i {
+        font-size: 1rem;
+    }
+
+    .cta-phone {
+        font-size: 1.1rem;
+        padding: 10px 20px;
+        gap: 8px;
+    }
+
+    .cta-phone i {
+        font-size: 1rem;
+    }
+}
+
 /* Responsive Steps */
 @media (max-width: 576px) {
     .steps-section {
@@ -59,8 +82,8 @@
     }
 
     .hero-phone {
-        font-size: 1.5rem;
-        padding: 12px 30px;
+        font-size: 1.3rem;
+        padding: 12px 25px;
         width: 100%;
         max-width: 280px;
         justify-content: center;
@@ -86,8 +109,8 @@
     }
 
     .cta-phone {
-        font-size: 1.5rem;
-        padding: 12px 30px;
+        font-size: 1.3rem;
+        padding: 12px 25px;
         width: 100%;
         max-width: 280px;
         justify-content: center;

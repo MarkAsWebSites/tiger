@@ -1,10 +1,13 @@
 {
   "site": {
-	"pageName" : "tiger",
+	"pageName" : "index",
     "title": "טייגר - שירותי חילוץ 24 שעות ביממה בחיפה, הקריות ואזור הצפון",
     "description": "טייגר - שירותי חילוץ, תיקוני דרך והתנעת רכבים, תיקון פנצ'רים, חלונות חשמליים, מנורות וקודנים. שירות עד הבית",
     "phone": "054-9094869",
     "phoneInternational": "+972549094869",
+    "whatsapp": "+972549094869",
+    "secondaryPhone": "050-3801128 ",
+    "secondaryPhoneInternational": "+972503801128 ",
     "companyName": "טייגר",
     "logo": "logo1.png",
     "cover": "bg.png",
@@ -71,6 +74,30 @@
               "name": "שירותי חילוץ 24/7",
               "description": "זמינות מלאה 24 שעות ביממה, 7 ימים בשבוע"
             }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "החלפת מצברים וניתוק קודניות",
+              "description": "החלפת מצברים במקום וניתוק קודניות לכל סוגי הרכבים"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "סריקה ואיפוס תקלות",
+              "description": "סריקה ואיפוס תקלות דרך מחשב לאבחון מקצועי של הרכב"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "החלפת גלגל",
+              "description": "החלפת גלגל במקום, שירות מהיר ומקצועי"
+            }
           }
         ]
       }
@@ -107,6 +134,21 @@
         "icon": "⚠️",
         "title": "שירות 24/7",
         "description": "זמינות מלאה 24 שעות ביממה, 7 ימים בשבוע"
+      },
+      {
+        "icon": "🔑",
+        "title": "החלפת מצברים וניתוק קודניות",
+        "description": "החלפת מצברים במקום וניתוק קודניות לכל סוגי הרכבים"
+      },
+      {
+        "icon": "💻",
+        "title": "סריקה ואיפוס תקלות",
+        "description": "סריקה ואיפוס תקלות דרך מחשב לאבחון מקצועי של הרכב"
+      },
+      {
+        "icon": "🛞",
+        "title": "החלפת גלגל",
+        "description": "החלפת גלגל במקום, שירות מהיר ומקצועי"
       }
     ]
   },

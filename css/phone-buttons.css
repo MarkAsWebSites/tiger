@@ -1,0 +1,209 @@
+/* ============================================
+   PHONE BUTTON RESPONSIVE STYLES
+   ============================================ */
+
+/* Hero Phone Buttons */
+.hero-phone {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    gap: 10px;
+}
+
+.hero-phone.primary {
+    background-color: var(--color-primary, #007bff);
+    color: #fff;
+}
+
+.hero-phone.secondary {
+    background-color: var(--color-secondary, #6c757d);
+    color: #fff;
+}
+
+.hero-phone:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero-phone i {
+    font-size: 20px;
+}
+
+/* CTA Phone Buttons */
+.cta-phone {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 36px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    gap: 12px;
+}
+
+.cta-phone.primary {
+    background-color: var(--color-primary, #007bff);
+    color: #fff;
+}
+
+.cta-phone.secondary {
+    background-color: var(--color-secondary, #6c757d);
+    color: #fff;
+}
+
+.cta-phone:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    color: #fff;
+}
+
+.cta-phone i {
+    font-size: 22px;
+}
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+    .hero-phone {
+        padding: 14px 26px;
+        font-size: 17px;
+        margin: 8px;
+    }
+    
+    .hero-phone i {
+        font-size: 19px;
+    }
+    
+    .cta-phone {
+        padding: 16px 32px;
+        font-size: 19px;
+        margin: 8px;
+    }
+    
+    .cta-phone i {
+        font-size: 21px;
+    }
+}
+
+/* Mobile (481px - 767px) */
+@media (max-width: 767px) {
+    .hero-phone {
+        padding: 12px 22px;
+        font-size: 16px;
+        margin: 6px;
+        gap: 8px;
+    }
+    
+    .hero-phone i {
+        font-size: 18px;
+    }
+    
+    .cta-phone {
+        padding: 14px 28px;
+        font-size: 18px;
+        margin: 6px;
+        gap: 10px;
+    }
+    
+    .cta-phone i {
+        font-size: 20px;
+    }
+}
+
+/* Small Mobile (320px - 480px) */
+@media (max-width: 480px) {
+    .hero-phone {
+        padding: 10px 18px;
+        font-size: 14px;
+        margin: 5px;
+        width: calc(100% - 20px);
+        max-width: 280px;
+    }
+    
+    .hero-phone i {
+        font-size: 16px;
+    }
+    
+    .cta-phone {
+        padding: 12px 24px;
+        font-size: 16px;
+        margin: 5px;
+        width: calc(100% - 20px);
+        max-width: 320px;
+    }
+    
+    .cta-phone i {
+        font-size: 18px;
+    }
+    
+    /* Stack buttons vertically on very small screens */
+    .hero-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cta-section .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Extra Small Mobile (< 320px) */
+@media (max-width: 320px) {
+    .hero-phone {
+        padding: 8px 15px;
+        font-size: 13px;
+        gap: 6px;
+    }
+    
+    .hero-phone i {
+        font-size: 14px;
+    }
+    
+    .cta-phone {
+        padding: 10px 20px;
+        font-size: 14px;
+        gap: 8px;
+    }
+    
+    .cta-phone i {
+        font-size: 16px;
+    }
+}
+
+/* RTL Support */
+[dir="rtl"] .hero-phone,
+[dir="rtl"] .cta-phone {
+    flex-direction: row-reverse;
+}
+
+/* Accessibility - Focus States */
+.hero-phone:focus,
+.cta-phone:focus {
+    outline: 3px solid var(--color-focus, #FFD700);
+    outline-offset: 3px;
+}
+
+/* Print Styles */
+@media print {
+    .hero-phone,
+    .cta-phone {
+        box-shadow: none;
+        border: 1px solid #000;
+    }
+}
