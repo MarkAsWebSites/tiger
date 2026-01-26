@@ -17,6 +17,13 @@
     margin: 20px;
 }
 
+.service-icon svg {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .hero-content {
     position: relative;
     z-index: 2;
@@ -53,11 +60,11 @@
     pointer-events: none;
 }
 
-.video-bg video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+    .video-bg video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 
 .hero-overlay {
     position: absolute;
@@ -81,7 +88,7 @@
 .hero-phone {
     border: none;
     padding: 15px 40px;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 600;
     border-radius: 50px;
     box-shadow: 0 10px 30px var(--shadow-dark);
@@ -126,6 +133,17 @@
         border-color: var(--border-blue-dark);
         color: var(--text-white);
     }
+
+/* RTL Support */
+[dir="rtl"] .hero-phone {
+    flex-direction: row-reverse;
+}
+
+/* Accessibility - Focus States */
+.hero-phone:focus {
+    outline: 3px solid var(--color-focus);
+    outline-offset: 3px;
+}
 
 /* Services Section */
 .services-section {
@@ -275,10 +293,10 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.step-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px var(--shadow-medium);
-}
+    .step-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px var(--shadow-medium);
+    }
 
 .step-number {
     flex-shrink: 0;
@@ -354,7 +372,7 @@
 .cta-phone {
     border: none;
     padding: 15px 40px;
-    font-size: 2.0rem;
+    font-size: 1.6rem;
     font-weight: 600;
     border-radius: 50px;
     box-shadow: 0 10px 30px var(--shadow-dark);
@@ -374,6 +392,17 @@
         color: var(--text-white);
         text-decoration: none;
     }
+
+/* RTL Support */
+[dir="rtl"] .cta-phone {
+    flex-direction: row-reverse;
+}
+
+/* Accessibility - Focus States */
+.cta-phone:focus {
+    outline: 3px solid var(--color-focus);
+    outline-offset: 3px;
+}
 
 /* Footer */
 .modern-footer {
@@ -494,92 +523,92 @@
 
 /* Doreen Sasson Opera Singer Hero Styles */
 .hero {
-  position: relative;
-  min-height: 80vh;
-  overflow: hidden;
-  background-color: var(--bg-pure-black);
+    position: relative;
+    min-height: 80vh;
+    overflow: hidden;
+    background-color: var(--bg-pure-black);
 }
 
 .hero__video {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 0;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
 }
 
 .hero__overlay {
-  position: absolute;
-  inset: 0;
-  background: var(--overlay-dark);
-  z-index: 1;
-  pointer-events: none;
+    position: absolute;
+    inset: 0;
+    background: var(--overlay-dark);
+    z-index: 1;
+    pointer-events: none;
 }
 
 .hero__content {
-  position: relative;
-  z-index: 2;
-  color: var(--text-white);
-  text-align: center;
-  padding: clamp(2rem,6vw,6rem) 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 80vh;
+    position: relative;
+    z-index: 2;
+    color: var(--text-white);
+    text-align: center;
+    padding: clamp(2rem,6vw,6rem) 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80vh;
 }
 
-.hero__content h1 {
-  font-size: clamp(2rem, 5vw, 4rem);
-  margin-bottom: 1rem;
-  font-weight: bold;
-}
+    .hero__content h1 {
+        font-size: clamp(2rem, 5vw, 4rem);
+        margin-bottom: 1rem;
+        font-weight: bold;
+    }
 
-.hero__content p {
-  font-size: clamp(1rem, 2.5vw, 1.5rem);
-  opacity: 0.9;
-}
+    .hero__content p {
+        font-size: clamp(1rem, 2.5vw, 1.5rem);
+        opacity: 0.9;
+    }
 
 /* Custom unmute button */
 .hero__unmute-button {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  z-index: 4;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 4;
 }
 
 .unmute-btn {
-  background: var(--overlay-gold);
-  border: 2px solid var(--color-accent-gold);
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  color: var(--text-white);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 12px var(--shadow-black-medium);
+    background: var(--overlay-gold);
+    border: 2px solid var(--color-accent-gold);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color: var(--text-white);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px var(--shadow-black-medium);
 }
 
-.unmute-btn:hover {
-  background: var(--color-accent-gold);
-  transform: scale(1.1);
-  box-shadow: 0 6px 20px var(--shadow-gold-light);
-}
+    .unmute-btn:hover {
+        background: var(--color-accent-gold);
+        transform: scale(1.1);
+        box-shadow: 0 6px 20px var(--shadow-gold-light);
+    }
 
 /* Loading indicator */
 .loading-indicator {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: var(--overlay-black);
-  color: var(--text-white);
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--overlay-black);
+    color: var(--text-white);
 }
 
 /* ============================================
