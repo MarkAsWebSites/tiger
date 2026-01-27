@@ -9,9 +9,9 @@
     "secondaryPhone": "050-3801128 ",
     "secondaryPhoneInternational": "+972503801128 ",
     "companyName": "טייגר",
-    "logo": "logo1.png",
-    "cover": "bg.png",
-    "favicon": "logo1.png",
+    "logo": "logo1.webp",
+    "cover": "bg.webp",
+    "favicon": "logo1.webp",
     "analytics": {
       "enabled": true,
       "googleAnalyticsId": "G-PBP3G0KNMS",
@@ -26,7 +26,7 @@
       "@type": "AutomotiveBusiness",
       "name": "טייגר - שירותי חילוץ",
       "description": "שירותי חילוץ, תיקוני דרך והתנעת רכבים 24 שעות ביממה בחיפה, הקריות ואזור הצפון",
-      "image": "logo1.png",
+      "image": "logo1.webp",
       "telephone": "+972549094869",
       "url": "",
       "priceRange": "$$",
@@ -112,10 +112,10 @@
   "hero": {
     "title": "טייגר",
     "subtitle": "מצבר עד בית הלקוח שרותי ותקוני דרך 24/7<br>בחיפה, קריות, נשר, טירת כרמל ואזור הצפון",
-    "backgroundImage": "bg.png",
-    "mobileImage": "bg.png",
+    "backgroundImage": "bg.webp",
+    "mobileImage": "bg.webp",
     "videoSource": "",
-    "poster": "bg.png"
+    "poster": "bg.webp"
   },
   "services": {
     "title": "השירותים שלנו",
